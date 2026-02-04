@@ -2,11 +2,7 @@ import Products from "./components/Products";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="app">
-      <Products />
-    </div>
-  );
+  return <Products />;
 }
 
 export default App;
